@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='./styles.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="hero">
+        <div class="main-div">
+            <img class="hero-image" src="./IMG_4454_Original.jpg" alt="hero-image">
+            <div class="hero-title">
+                <h1> Athish Sujay Nath</h1>
+                <h3> Data Analyst</h3>
+            </div>
+            
+        </div>
+        
+
+    </section>
+   
+
+    <section id = "about" >
+        <h2 class="center-h2">About Me</h2>
+        <div class="main-div">
+            <p> Welcome to my portfolio! I'm Athish Sujay Nath, a highly skilled Data Analyst with expertise in Python, SQL, and advanced statistical analysis. With a Master's degree in Computer Engineering, I specialize in transforming complex data into actionable insights that drive strategic decision-making. Explore my portfolio to see how I optimize ETL processes, design intuitive BI solutions, and craft sophisticated statistical models to deliver impactful results. Let's uncover the transformative power of analytics together! </p>
+        </div>
+        <div class="about-skillset"> 
+            <h4> Tools And Skills </h4>
+            <ul>
+                <li>Programming Languages: Python, SQL. </li>
+                <li>Python Libraries: NumPy, Pandas, Matplotlib, SciPy. </li>
+                <li>Database: Firebase, MongoDB, My SQL, SQL server.</li>
+                <li>Visualization Tools: Power BI, Tableau, MS Excel.</li>
+                <li> Methodologies: Agile, SDLC & Waterfall.</li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="portfolio">
+        <h2 class="center-h2">Portfolio</h2>
+
+        <a href="https://github.com/athishsn/SQLProjects/tree/main" target="_blank" rel="noopener noreferrer" class="projects">
+            <div class="project-title">
+                <h3> Exploratory Data Analysis With SQL </h3>
+                <p> Projects related to SQL. </p>
+            </div>
+            <div class="project-img">
+                <img src="./SQLImage.png" alt="">
+            </div>  
+        </a>
+        
+
+
+        <a href="https://github.com/athishsn/powerbi/tree/main" target="_blank" rel="noopener noreferrer" class="projects">
+            <div class="project-title">
+                <h3 > Power BI Dashboards </h3>
+                <p > Data Visualization with Power BI. </p>
+            </div>
+            <div class="project-img">
+                <img src="./DashBoardImage.jpeg" alt="">
+            </div>  
+        </a>
+        
+        <a href="https://github.com/athishsn/EDA-python" target="_blank" rel="noopener noreferrer" class="projects">
+            <div class="project-title">
+                <h3> Exploratory Data Analysis With Python </h3>
+                <p> Projects realted to Python. </p>
+            </div>
+            <div class="project-img">
+                <img src="./python.jpeg" alt="">
+            </div>  
+        </a>
+
+        <a href="https://public.tableau.com/app/profile/athish.sujay.nath/vizzes" target="_blank" rel="noopener noreferrer" class="projects">
+            <div class="project-title">
+                <h3> Tableau Dashboards </h3>
+                <p> Data Visualization with Tableau. </p>
+            </div>
+            <div class="project-img">
+                <img src="./VizualizationImage.jpeg" alt="">
+            </div>  
+        </a>
+       
+
+    </section>
+
+    <section id="contact" class="site-main" >
+        <h2 class="center-h2">Contact Me</h2>
+        <form action="https://formspree.io/f/mqkrqvzz" method="POST">
+            <input class="feedback-input" type="text" name="name" placeholder="Your name" required>
+            <input class="feedback-input" type="email" name="email" placeholder="Your Email" required>
+            <textarea class="feedback-input" name="message" placeholder="Your Message" ></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- <section id="blogs" >
+        <h1> Blogs </h1>
+        <p> Scroll down </p>
+    </section> -->
+
+    <footer >
+        <div class="copyright">
+            <p> &copy; 2024 Athish Sujay Nath Portfolio. All rights reserved</p>
+            <div class="socials">
+                <a class="social-links" href="https://www.linkedin.com/in/athishsn" target="_blank" rel="noopener noreferrer" > LinkedIn</a>
+                <a class="social-links" href="https://github.com/athishsn" target="_blank" rel="noopener noreferrer" > GitHub</a>
+                <a class="social-links" href="https://twitter.com/nath_athish" target="_blank" rel="noopener noreferrer" > Twitter</a>
+                <a class="social-links" href="https://public.tableau.com/app/profile/athish.sujay.nath/vizzes" target="_blank" rel="noopener noreferrer" > Tableau Public</a>
+            </div>
+        </div>
+       
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='./script.js'></script>
+
+</body>
+</html>
